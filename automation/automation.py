@@ -4,7 +4,6 @@ import re
 
 fake = Faker('en_US')
 
-
 phone_regix = re.compile(r'((\(?\d{3}\)?)(\s|-|\.)?(\d{3})(\s|-|\.)?(\d{4})(\s*(ext|x|ext.)\s*(\d{2,5}))? )', re.VERBOSE)
 
 e_mail_regix = re.compile(r'([a-zA-Z0-9._%+-] + @[a-zA-Z0-9.-] + (\.[a-zA-Z]{2,4}))', re.VERBOSE)
